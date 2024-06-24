@@ -391,7 +391,8 @@
          "what is available in college canteen",
          "what foods can we get in college canteen",
          "food variety",
-         "What is there to eat?"
+         "What is there to eat?", 
+         "menu"
       ],
       "responses": [
          "we serve Kebab, Salted Egg, Dallas, Take me out, and many more on menu"
@@ -412,7 +413,7 @@
          "companies"
       ],
       "responses": [
-         "To know about placement visit <a target=\"_blank\" href=\"untar.ac.id\">here</a>"
+         "To know about placement visit untar.ac.id here</a>"
       ],
       "context_set": ""
    },
@@ -467,7 +468,7 @@
          "name of principal"
       ],
       "responses": [
-         "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+         "Pak agus is college principal and if you need any help then call your branch hod first.That is more appropriate"
       ],
       "context_set": ""
    },
@@ -602,7 +603,7 @@
          "how many committee are there in college"
       ],
       "responses": [
-         "For the various committe in college contact this number: 087780992445"
+         "For the various committe in college go to Instagram : @bemftiuntar , @dpmftiuntar, @mapalaftiuntar"
       ],
       "context_set": ""
    },
@@ -667,7 +668,9 @@
          "sports facilities",
          "information about sports",
          "Sports activities",
-         "please provide sports and games information"
+         "please provide sports and games information",
+         "sports",
+         "games"
       ],
       "responses": [
          "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(untar.ac.id)\">here</a>"
