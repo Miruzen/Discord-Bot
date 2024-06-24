@@ -22,7 +22,7 @@ def get_response1(message : str )-> str :
       return answer
     if p_message == "shut" :
       return exit () 
-  return "I didn't understand what you wrote."
+  return "I didn't understand what you wrote , Try /help"
 
 if Data_intent:
     while True:
@@ -31,6 +31,8 @@ if Data_intent:
         print("Bot: ", response)
         if user_input == "shut":
             break
+        if user_input == "/help " or "/Help" :
+            print ("Try typing [hey , bye , coding , program , ngoding , stok , organisasi]")
 else:
     print("Failed to load intents.json. Exiting program.")
 
