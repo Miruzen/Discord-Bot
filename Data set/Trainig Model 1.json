@@ -608,7 +608,8 @@
                         "I want to hear some gossip",
                         "Tell me some gossip",
                         "Any gossip",
-                        "Tell me some more gossip"
+                        "Tell me some more gossip",
+                        "gossip"
                   ],
                   "responses": [
                         "Gregory said I respond to the current line not with respect to the entire conversation.",

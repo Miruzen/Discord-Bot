@@ -14,7 +14,7 @@ def read_intents(intents_data):
 Data_intent = read_intents("intents.json")
 
 def get_response1(message : str )-> str :
-  p_message = message.lower()
+  p_message = message 
   for intent in Data_intent["intents"]:
     if any(pattern in p_message for pattern in intent["patterns"]):
       answer = random.choice(intent["responses"])
@@ -22,17 +22,17 @@ def get_response1(message : str )-> str :
       return answer
     if p_message == "shut" :
       return exit () 
-  return "I didn't understand what you wrote , Try /help"
+  return "I didn't understand what you wrote , Access this drive to see command : https://drive.google.com/drive/folders/1q-ay7_QwgntvurYjeNC-KgRijvamwVj0?usp=sharing"
 
-if Data_intent:
-    while True:
-        user_input = input("You: ")
-        response = get_response1(user_input)
-        print("Bot: ", response)
-        if user_input == "shut":
-            break
-        if user_input == "/help " or "/Help" :
-            print ("Try typing [hey , bye , coding , program , ngoding , stok , organisasi]")
-else:
-    print("Failed to load intents.json. Exiting program.")
+# if Data_intent:
+#     while True:
+#         user_input = input("You: ")
+#         response = get_response1(user_input)
+#         print("Bot: ", response)
+#         if user_input == "shut":
+#             break
+#         if user_input == "/help " or "/Help" :
+#             print ("Try typing [hey , bye , coding , program , ngoding , stok , organisasi]")
+# else:
+#     print("Failed to load intents.json. Exiting program.")
 
